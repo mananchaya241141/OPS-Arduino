@@ -3,7 +3,7 @@
 // this line lets us call the Serial object by a more descriptive name, usb_serial
 HardwareSerial & usb_serial = Serial;
 // this declares that we have an OmniPreSense board hooked up to Arduino pin 10 & 11
-SoftwareSerial ops_serial(10, 11); // RX, TX
+SoftwareSerial ops_serial(8, 9); // RX, TX
 
 void setup() {
   // Open serial communications and wait for port to open:
